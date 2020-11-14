@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/images/favicon-32x32.png">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- css -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>Frontend Mentor | Social Media Dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="">
+  <div class="container">
+    <div class="switchButton smallText ">
+      <p class="switchButtonText hiddenSmall">
+        Dark Mode
+      </p>
+      <label class="switch">
+        <input id="switchMode" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="dashboardTitle">
+      <div class="dashboardTitle_main">
+        <h3><strong>Social Media Dashboard</strong></h3>
+      </div>
+      <div class="smallText  bigSpace">
+        <p>Total Followers: 23,004</p>
+      </div>
+      <p class="switchButtonText hiddenBig">
+        Dark Mode
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-12">
+        <div class="borderSocial facebook">
+          <div class="innerContent ">
+            <div class="socialName smallText ">
+              <div class="SocialLogo">
+                <img src="/images/icon-facebook.svg">
+              </div>
+              @nathanf
+            </div>
+            <div class="socialNumber">
+              1987
+            </div>
+            <div class="followers smallText ">
+              Followers
+            </div>
+            <div class="difference">
+              <img class="logo" src="/images/icon-up.svg">
+              <p class="difRed">12 Today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="borderSocial twitter">
+          <div class="innerContent ">
+            <div class="socialName smallText ">
+              <div class="SocialLogo">
+                <img src="/images/icon-twitter.svg">
+              </div>
+              @nathanf
+            </div>
+            <div class="socialNumber">
+              1044
+            </div>
+            <div class="followers smallText ">
+              Followers
+            </div>
+            <div class="difference">
+              <img class="logo" src="/images/icon-up.svg">
+              <p class="difRed">99 Today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="borderSocial instagram">
+          <div class="innerContent ">
+            <div class="socialName smallText ">
+              <div class="SocialLogo">
+                <img src="/images/icon-instagram.svg">
+              </div>
+              @realnathanf
+            </div>
+            <div class="socialNumber">
+              11k
+            </div>
+            <div class="followers smallText ">
+              Followers
+            </div>
+            <div class="difference">
+              <img class="logo" src="/images/icon-up.svg">
+              <p class="difRed">1099 Today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="borderSocial youtube">
+          <div class="innerContent ">
+            <div class="socialName smallText ">
+              <div class="SocialLogo">
+                <img src="/images/icon-youtube.svg">
+              </div>
+              Nathan F.
+            </div>
+            <div class="socialNumber">
+              8239
+            </div>
+            <div class="followers smallText ">
+              Subscribers
+            </div>
+            <div class="difference">
+              <img class="logo" src="/images/icon-down.svg">
+              <p class="difRed">144 Today</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="overview">
+      Overview - Today
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-12">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-facebook.svg">
+          <div class="overviewText smallText ">
+            Page Views
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-up.svg">
+            <p class="difRed">3%</p>
+          </div>
+          <div class="overviewNumber">
+            87
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-facebook.svg">
+          <div class="overviewText smallText ">
+            Likes
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-down.svg">
+            <p class="difRed">2%</p>
+          </div>
+          <div class="overviewNumber">
+            52
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-instagram.svg">
+          <div class="overviewText smallText ">
+            Likes
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-up.svg">
+            <p class="difRed">2257%</p>
+          </div>
+          <div class="overviewNumber">
+            5462
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-instagram.svg">
+          <div class="overviewText smallText ">
+            Profile Views
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-up.svg">
+            <p class="difRed">1375%</p>
+          </div>
+          <div class="overviewNumber">
+            52k
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-3 col-12 special">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-twitter.svg">
+          <div class="overviewText smallText ">
+            Retweets
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-up.svg">
+            <p class="difRed">303%</p>
+          </div>
+          <div class="overviewNumber">
+            117
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-twitter.svg">
+          <div class="overviewText smallText ">
+            Likes
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-up.svg">
+            <p class="difRed">553%</p>
+          </div>
+          <div class="overviewNumber">
+            507
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-youtube.svg">
+          <div class="overviewText smallText ">
+            Likes
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-down.svg">
+            <p class="difRed">19%</p>
+          </div>
+          <div class="overviewNumber">
+            107
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-12">
+        <div class="innerContent-bottom">
+          <img class="overviewLogo" src="/images/icon-youtube.svg">
+          <div class="overviewText smallText ">
+            Total Views
+          </div>
+          <div class="overviewDif float-right difference">
+            <img class="logo" src="/images/icon-down.svg">
+            <p class="difRed">12%</p>
+          </div>
+          <div class="overviewNumber">
+            1407
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Hamilton</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="/js/index.js"></script>
+</body>
+
+</html>
